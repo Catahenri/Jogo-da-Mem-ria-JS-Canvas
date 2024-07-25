@@ -172,7 +172,7 @@ function embaralharCartas() {
 
 // função que esconde as cartas após duas serem abertas
 function esconderCartas() {
-    //se as cartas nao forem iaguais, sao desenhadas novamente sem alterar a posiçao inicial
+    //se as cartas nao forem iguais, sao desenhadas novamente sem alterar a posiçao inicial
     if (!acerto) {
         cartas[primeiraCarta].draw();
         cartas[segundaCarta].draw();
